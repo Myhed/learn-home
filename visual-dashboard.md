@@ -26,7 +26,21 @@ Il y aura
 ![Voir l'affichage pour le bénévol](./images/dashboard/évènement-etudiant.png)
 ## Etudiant tâches visual dashboard desktop
 
+Fonctionnalité: Gérer les tâches sur le dashboard
 
+  Scénario: Consulter les tâches en tant qu'étudiant
+    Étant donné que je suis un étudiant connecté
+    Lorsque je consulte le dashboard
+    Alors je devrais voir la section des tâches
+
+Etudiant:
+* Alors je devrais voir les rendus des étudiants pour chaque exercice
+* Alors pour chaque rendu, je verrai la description suivante : "Exercice + numéro de l'exercice suivi du nom de la spécialité", suivi du nom du chapitre et de la date de rendu
+* Alors pour chaque rendu, je devrais avoir la possibilité de voir la référence du chapitre avec les détails du cours sur desktop
+* Alors pour chaque rendu, je devrais avoir la possibilité de rendre l'exercice sur desktop via un bouton situé à droite du nom du chapitre
+* Alors pour chaque rendu, sur mobile, je devrais voir ma note sur l'exercice rendu au lieu des boutons
+
+  
 
 ## Bénévole évènements visual dashboard desktop
 
@@ -51,3 +65,12 @@ il y aura
 
 ![Voir l'affichage pour le bénévol](./images/dashboard/évènement-bénévol.png)
 ## Bénévole tâches visual dashboard desktop
+Scénario: Consulter les tâches en tant que bénévole
+    Étant donné que je suis un bénévole connecté
+    Lorsque je consulte le dashboard
+    Alors je devrais voir la section des tâches
+
+Bénévole:
+* Alors je devrais voir les rendus des étudiants pour chaque exercice que j'ai donné
+* Alors pour chaque rendu, je verrai la description suivante : "Exercice + numéro de l'exercice suivi du nom de la spécialité", suivi du nom du chapitre et de la date de rendu
+* Alors pour chaque rendu, je devrais avoir la possibilité de voir la référence du chapitre avec les détails du cours sur desktop
